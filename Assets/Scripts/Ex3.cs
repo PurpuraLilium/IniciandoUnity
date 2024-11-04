@@ -42,5 +42,9 @@ public class Ex3 : MonoBehaviour
 
             print($"Ainda não, vida atual " + VidaPlayerAtual);
         }
+        if (vivo == false && powerup == false)
+        {
+            print("Game over");
+        }
     }
 }

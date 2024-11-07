@@ -17,7 +17,7 @@ public class Ex8 : MonoBehaviour
     {
         cont++;
         
-        if (cont == 1000)
+        if (cont == 10000)
         {
             hora += 1;
             cont = 0;
@@ -27,9 +27,9 @@ public class Ex8 : MonoBehaviour
         {
             hora = 0;
             dias += 1;
-            
+            print("O numero de dias passados foi " + dias);
         }
-        print("O numero de dias passados foi " + dias);
+        
 
     }
 }

@@ -7,8 +7,16 @@ public class Ex7 : MonoBehaviour
     [SerializeField] int numfaces;
     void Start()
     {
-      int result = Random.Range(1, numfaces);
-        print(result);
+        if (numfaces <= 0)
+        {
+            print("Não é possível um dado ter esse numero de faces.");
+        }
+        else
+        {
+            int result = Random.Range(1, numfaces);
+            print("O resultado foi: " + result);
+        }
+      
     }
 
     

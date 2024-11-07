@@ -19,7 +19,7 @@ public class Ex9 : MonoBehaviour
         }
         else if (pontosA == pontosB)
         {
-            if (pontosA == 3 && pontosB == 3)
+            if (pontosA >= 3 && pontosB >= 3)
             {
                 print("Foi um empate emocionante");
             }

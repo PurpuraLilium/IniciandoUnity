@@ -585,6 +585,7 @@ GameObject:
   - component: {fileID: 1347598036}
   - component: {fileID: 1347598037}
   - component: {fileID: 1347598038}
+  - component: {fileID: 1347598039}
   m_Layer: 0
   m_Name: __Idle
   m_TagString: Untagged
@@ -835,12 +836,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347598024}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7cbdafe3fcf22fc4fa4b45bcb8574a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   texto: ovo
+--- !u!114 &1347598039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347598024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c52fe1065a3693347a815f0c83e316c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dia: 29
+  mes: 11
+  ano: 2003
 --- !u!1 &1552532912
 GameObject:
   m_ObjectHideFlags: 0

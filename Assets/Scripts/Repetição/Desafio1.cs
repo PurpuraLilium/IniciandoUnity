@@ -10,28 +10,23 @@ public class Desafio1 : MonoBehaviour
 
     
     [SerializeField] string texto;
-    
-    List<char> letras = new List<char>();
-
-    
-
-    
 
 
     void Start()
     {
+        string txt = texto.ToLower();
 
-        char[] letras = texto.ToCharArray();
+        char[] letras = txt.ToCharArray();
 
         
-        int cons = texto.Length;
+        int cons = 0;
 
 
         foreach (char let in letras)
         {
-          if (let == 'a' || let == 'e' || let == 'i' || let == 'o' || let == 'u')
+          if (let == 'b' || let == 'c' || let == 'd' || let == 'f' || let == 'g' || let == 'h' || let == 'j' || let == 'k' || let == 'l' || let == 'm' || let == 'n' || let == 'p' || let == 'q' || let == 'r' || let == 's' || let == 't' || let == 'v' || let == 'w' || let == 'x' || let == 'y' || let == 'z')
             {
-                cons --;
+                cons += 1;
             }
             
         }

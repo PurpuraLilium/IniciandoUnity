@@ -12,6 +12,8 @@ public class Ex7r : MonoBehaviour
     
     void Start()
     {
+        num = numeros[0];
+
         foreach (int i in numeros)
         {
             if (num < i)
